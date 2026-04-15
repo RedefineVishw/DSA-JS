@@ -6,7 +6,52 @@
     <title>DSA using JS</title>
   </head>
   <body>
-    <h1>hello</h1>
+    <h1>Important JS Questions and Topics</h1>
+    <h3>What does let do in JS?</h3>
+    <p>
+      The let is a keyword which is used to declare the variables in the JS. It
+      is a block scoped variables and it will not let us to redeclare the same
+      variable in the same scope but we can still reassign the variable. since
+      it is a block scope variable you cannot access it outside the block that
+      it is defined.
+    </p>
+    <h3>What is the output of: console.log(typeof null); ?</h3>
+    <p>
+      the type of Object. It a bug in the javascript and it was discoverd after
+      the javascript became the widely used so they never fixed it to preserve
+      the backward compatibility
+    </p>
+    <h3>What is an array?</h3>
+    <p>
+      An array in JS is a special Data Structure that can store the multiple
+      elements in the single variables. The type of an array will be object.
+      Array in the JS are the different than the other labnguages. In all other
+      languages the array can store the data of the single primitive type value
+      but in js the array can store the multiple typ[e values. The array in
+      other language are stored in the contiguous memory but in the js it is
+      handled by the browser js engine internally and it does not expose the
+      memory address. The reference is only stored in the variable of that
+      array.
+    </p>
+    <h3>How do you create a function in JavaScript?</h3>
+    <p>There are many ways to create a funtions in the js</p>
+    <p>Funtion Declaration (Most Commonly Used)</p>
+    <p>function greet() { console.log("Hello!"); }</p>
+    <p>Funtion Expression. Assign a funtion to the any variables</p>
+    <p>let greet = function() { console.log("Hello!"); };</p>
+    <p>
+      Arrow Funtion introduces in the ES6 Which have the implicit retun if used
+      without the {}
+    </p>
+    <p>let greet = () => { console.log("Hello!"); };</p>
+    <h3>What does the map() method do?</h3>
+    <p>
+      The map() method in JavaScript is used to create a new array by applying a
+      function to each element of an existing array. It will create a shallow
+      copy of the an existing array by traforming the data in the desired format
+      and will have the same size as the original array
+    </p>
+
     <script src="higherOrderFuntion.js"></script>
   </body>
 </html>
