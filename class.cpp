@@ -55,6 +55,9 @@ public:
     {
         length = l;
     }
+    ~Reactangle(){
+        cout << "This is the destructor destroyed the Rectangle";
+    }
 };
 
 int main()
