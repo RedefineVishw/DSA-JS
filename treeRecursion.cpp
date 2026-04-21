@@ -35,10 +35,26 @@ void funB(int n)
     }
 }
 
+// nested recusrsion
+int fun1(int n)
+{
+    if (n > 100)
+    {
+        return n - 10;
+    }
+    else
+    {
+        return fun1(fun1(n + 11));
+    }
+}
+
 int main()
 {
     fun(3);
     cout << endl;
     funA(20);
+    cout << endl;
+    int r = fun1(97);
+    cout << r;
     return 0;
 }
